@@ -44,7 +44,8 @@ export default async function Blogs() {
                           {blog.fields.image.sys.id == img.sys.id ? (
                             <Image
                               src={"https:" + img.fields.file.url}
-                              alt=""
+                              className=""
+                              alt="w-full"
                               width={500}
                               height={500}
                             />
@@ -65,7 +66,7 @@ export default async function Blogs() {
                         WebkitLineClamp: "2",
                         overflow: "hidden",
                         textOverflow: "ellipsis",
-                        height: "30px",
+                        // height: "30px",
                       }}
                     >
                       {blog.fields.title}
