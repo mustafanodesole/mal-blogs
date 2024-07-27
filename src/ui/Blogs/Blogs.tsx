@@ -46,7 +46,7 @@ export default async function Blogs() {
                               src={"https:" + img.fields.file.url}
                               className=""
                               alt="w-full"
-                              width={500}
+                              width={1000}
                               height={500}
                             />
                           ) : (
@@ -61,11 +61,11 @@ export default async function Blogs() {
                     <h2
                       className="text-xl font-bold"
                       style={{
-                        display: "webkit-box",
-                        WebkitBoxOrient: "vertical",
-                        WebkitLineClamp: "2",
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
+                        // display: "webkit-box",
+                        // WebkitBoxOrient: "vertical",
+                        // WebkitLineClamp: "2",
+                        // overflow: "hidden",
+                        // textOverflow: "ellipsis",
                         // height: "30px",
                       }}
                     >
