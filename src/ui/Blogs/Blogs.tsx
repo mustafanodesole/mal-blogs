@@ -43,6 +43,7 @@ export default async function Blogs() {
                         <div key={img.sys.id}>
                           {blog.fields.image.sys.id == img.sys.id ? (
                             <Image
+                            
                               src={"https:" + img.fields.file.url}
                               className=""
                               alt="w-full"
